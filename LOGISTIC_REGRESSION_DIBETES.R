@@ -26,7 +26,7 @@ upper
 data$Pregnancies[data$Pregnancies > upper] <- upper
 boxplot(data$Pregnancies)
 
-############################ Glucose ####################
+############################ Glucose #########################
 boxplot(data$Glucose)
 summary(data$Glucose)
 
